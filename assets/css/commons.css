@@ -1,0 +1,188 @@
+/* Pretendard 가져오기 */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+
+    /* =========================
+   1) 조합형 클래스
+   - 여러 역할이 같이 들어간 전용 클래스
+========================= */
+.hero-font {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 102px;
+}
+
+.kivy-text-ai7 {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 38px;
+}
+
+
+/* =========================
+   2) 두께 관련 클래스
+   - font-weight 중심
+========================= */
+
+.font-weight-light {
+    font-family: 'Pretendard';
+    font-weight: 300;
+}
+
+.font-weight-regular {
+    font-family: 'Pretendard';
+    font-weight: 400;
+}
+
+.kivy-weight-medium {
+    font-family: 'Pretendard';
+    font-weight: 500;
+}
+
+.font-weight-semibold {
+    font-family: 'Pretendard';
+    font-weight: 600;
+}
+
+.font-weight-bold {
+    font-family: 'Pretendard';
+    font-weight: 700;
+}
+
+
+/* =========================
+   3) 크기 관련 클래스
+   - font-size 중심
+========================= */
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-17 {
+    font-size: 17px;
+}
+
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+.font-size-32 {
+    font-size: 32px;
+}
+
+.font-size-34 {
+    font-size: 34px;
+}
+
+
+.font-size-42 {
+    font-size: 42px;
+}
+.font-size-58 {
+    font-size: 58px;
+}
+
+
+
+/* =========================
+   4) 색상 관련 클래스
+   - color 중심
+========================= */
+.font-color-1A1209 {
+    color: #1A1209;
+}
+
+.font-color-106DEA {
+    color: #106DEA;
+}
+
+.font-color-2249FF {
+    color: #2249FF;
+}
+
+.font-color-FFEE00 {
+    color: #FFEE00;
+}
+
+.font-color-515151 {
+    color: #515151;
+}
+
+.font-color-333 {
+    color: #333;
+}
+
+.font-color-fff {
+    color: #fff;
+}
+
