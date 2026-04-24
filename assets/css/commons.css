@@ -64,22 +64,38 @@
 
 
 
+:root {
+    /* Color tokens */
+    --color-text-primary: #1A1209;
+    --color-text-secondary: #515151;
+    --color-text-muted: #6b6b6b;
+    --color-text-dark: #333;
+    --color-white: #fff;
+    --color-brand-1: #106DEA;
+    --color-brand-2: #2249FF;
+    --color-brand-3: #2498F2;
+    --color-brand-4: #83C9FD;
+    --color-brand-5: #4f7fff;
+    --color-brand-6: #7AC6FD;
+    --color-bg-light: #f7f7f7;
+    /* page-8 이벤트 상품: 원형 테두리·뱃지 */
+    --color-event-image-ring: #9bd8ff;
+    --color-event-box-border: #3159ff;
+}
+
+/* Accessible base scaling for user readability */
+html {
+    font-size: clamp(0.9375rem, 0.2vw + 0.9rem, 1rem);
+}
+
+body {
+    color: var(--color-text-primary);
+}
+
     /* =========================
    1) 조합형 클래스
    - 여러 역할이 같이 들어간 전용 클래스
 ========================= */
-.hero-font {
-    font-family: 'Pretendard';
-    font-weight: 600;
-    font-size: 102px;
-}
-
-.kivy-text-ai7 {
-    font-family: 'Pretendard';
-    font-weight: 500;
-    font-size: 38px;
-}
-
 
 /* =========================
    2) 두께 관련 클래스
@@ -96,7 +112,7 @@
     font-weight: 400;
 }
 
-.kivy-weight-medium {
+.font-weight-medium {
     font-family: 'Pretendard';
     font-weight: 500;
 }
@@ -116,58 +132,48 @@
    3) 크기 관련 클래스
    - font-size 중심
 ========================= */
+.font-size-hero {
+    font-size: clamp(3.2rem, 7vw, 6.375rem);
+}
+
 .font-size-14 {
-    font-size: 14px;
+    font-size: clamp(0.875rem, 0.84rem + 0.12vw, 0.9375rem);
 }
 
 .font-size-16 {
-    font-size: 16px;
+    font-size: clamp(1rem, 0.97rem + 0.12vw, 1.125rem);
 }
 
-.font-size-17 {
-    font-size: 17px;
-}
-
-
-.font-size-20 {
-    font-size: 20px;
+.font-size-18 {
+    font-size: clamp(1.125rem, 1.07rem + 0.16vw, 1.25rem);
 }
 
 .font-size-24 {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 1.28rem + 0.55vw, 2rem);
 }
+
 .font-size-32 {
-    font-size: 32px;
+    font-size: clamp(2rem, 1.68rem + 0.95vw, 2.75rem);
 }
 
-.font-size-34 {
-    font-size: 34px;
+.font-size-48 {
+    font-size: clamp(2.5rem, 2rem + 1.7vw, 4rem);
 }
-
-
-.font-size-42 {
-    font-size: 42px;
-}
-.font-size-58 {
-    font-size: 58px;
-}
-
-
 
 /* =========================
    4) 색상 관련 클래스
    - color 중심
 ========================= */
 .font-color-1A1209 {
-    color: #1A1209;
+    color: var(--color-text-primary);
 }
 
 .font-color-106DEA {
-    color: #106DEA;
+    color: var(--color-brand-1);
 }
 
 .font-color-2249FF {
-    color: #2249FF;
+    color: var(--color-brand-2);
 }
 
 .font-color-FFEE00 {
@@ -175,14 +181,63 @@
 }
 
 .font-color-515151 {
-    color: #515151;
+    color: var(--color-text-secondary);
 }
 
 .font-color-333 {
-    color: #333;
+    color: var(--color-text-dark);
 }
 
 .font-color-fff {
-    color: #fff;
+    color: var(--color-white);
 }
 
+.bg-color-brand-1 {
+    background-color: var(--color-brand-1);
+}
+
+.bg-color-brand-2 {
+    background-color: var(--color-brand-2);
+}
+
+.bg-color-brand-3 {
+    background-color: var(--color-brand-3);
+}
+
+.bg-color-brand-4 {
+    background-color: var(--color-brand-4);
+}
+
+.bg-color-white {
+    background-color: var(--color-white);
+}
+
+.bg-color-light {
+    background-color: var(--color-bg-light);
+}
+
+
+
+.text-break-keep {
+    word-break: keep-all;
+}
+
+@media (max-width: 48rem) {
+    .font-size-32 {
+        font-size: 1.75rem;
+    }
+
+    .font-size-24 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 30rem) {
+    .font-size-32 {
+        font-size: 1.5rem;
+    }
+
+    .font-size-24 {
+        font-size: 1.125rem;
+    }
+}

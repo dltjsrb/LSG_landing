@@ -1,1 +1,1 @@
-# LSG_landing
+# LSG_landing_pc-mobile
